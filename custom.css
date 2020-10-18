@@ -1,41 +1,34 @@
 body {
     transition: background-color 3s ease-in-out;
-    animation: colorchange 120s infinite alternate;
+    animation: colorchange 60s infinite alternate;
     -webkit-transition: background-color 3s ease-in-out;
-    -webkit-animation: colorchange 120s infinite alternate;
-    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 40%) !important;
-    
+    -webkit-animation: colorchange 60s infinite alternate;
+    /*background-image: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 40%) !important;*/
 }
+
+.filter-green {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(103deg) brightness(103%) contrast(105%);
+}
+
 @keyframes colorchange {
+
     0% {
-        background: rgb(138, 155, 177);
-    }
-
-    15% {
-        background: rgb(216, 57, 57);
-    }
-
-    20% {
         background: rgb(11, 140, 227);
     }
 
-    25% {
-        background: rgb(22, 82, 142);
-    }
-
-    30% {
+    10% {
         background: rgb(33, 153, 83);
     }
 
-    35% {
+    20% {
         background: rgb(229, 75, 75);
     }
 
-    40% {
+    30% {
         background: rgb(84, 123, 48);
     }
 
-    45% {
+    40% {
         background: rgb(102, 204, 153);
     }
 
@@ -43,43 +36,23 @@ body {
         background: rgb(211, 84, 0);
     }
 
-    55% {
-        background: rgb(22, 124, 128);
-    }
-
     60% {
         background: rgb(249, 152, 153);
     }
 
-    65% {
+    70% {
         background: rgb(250, 121, 0);
     }
 
-    70% {
+    80% {
         background: rgb(120, 173, 69);
     }
 
-    75% {
+    90% {
         background: rgb(254, 190, 18);
     }
 
-    80% {
-        background: rgb(28, 18, 139);
-    }
-
-    85% {
-        background: rgb(22, 160, 133);
-    }
-
-    90% {
-        background: rgb(255, 91, 91);
-    }
-
-    95% {
-        background: rgb(120, 35, 68);
-    }
-
     100% {
-        background: rgb(92, 229, 180);
+        background: rgb(28, 18, 139);
     }
 }
