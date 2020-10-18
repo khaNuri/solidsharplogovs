@@ -3,18 +3,11 @@ body {
     animation: colorchange 120s infinite alternate;
     -webkit-transition: background-color 3s ease-in-out;
     -webkit-animation: colorchange 120s infinite alternate;
+    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 40%) !important;
+    
 }
 @keyframes colorchange {
     0% {
-        /*background: rgb(92, 229, 180);*/
-        background: rgb(22, 82, 142);
-    }
-
-    5% {
-        background: rgb(59, 181, 97);
-    }
-
-    10% {
         background: rgb(138, 155, 177);
     }
 
