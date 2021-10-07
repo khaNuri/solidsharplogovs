@@ -1,3 +1,13 @@
+---
+title: '["SOLID#"]'
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 theme: jekyll-theme-cayman
-title: [SOLID#]
-description: [principled software team]
+description:
+- principled software team
